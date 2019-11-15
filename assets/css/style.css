@@ -1,0 +1,132 @@
+/*  top info section */
+
+.container {
+    max-width: 800px;
+    margin: 5%;
+}
+
+.auth-info-section {
+    min-width: 320px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding:15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.info-div {
+    padding: 0;
+}
+
+.my-image {
+    width: 120px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+  }
+
+#instructions {
+    text-align: center;
+}
+
+.img-thumbnail {
+    float:left;
+}
+
+/* portfolio */
+
+.wrapper {
+    text-align: center;
+}
+
+.work {
+    width: 300px;
+    position: relative;
+    margin: 0 10px 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 1;
+}
+
+.auth-image {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+
+.work h3 {
+    border-bottom: 0;
+    background: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-weight: 300;
+    opacity: .9;
+}
+
+/* sidebar */
+
+.sidebar {
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+  }
+  
+  h3,
+  .sidebar h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .social {
+    width: 54px;
+    height: 54px;
+    margin: 8px 5px 8px 0;
+  }
+  
+  .social:last-child {
+    margin-right: 0;
+  }
+
+  .social:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .email-phone {
+      font-size: .9rem;
+  }
+
+  .href:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+
+
+.flex {
+    flex-wrap: wrap;
+}
+
+
+
